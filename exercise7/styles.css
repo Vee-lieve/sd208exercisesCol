@@ -1,0 +1,112 @@
+body {
+  background-image: url(spring.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Marmelad';
+}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.rainy-ashville-gradient {
+  background: -moz-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%);
+  background: -webkit-gradient(linear, 120deg, from(rgba(166,193,238,0.4)), to(rgba(251,194,235,0.4)));
+  background: -o-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%); 
+  background: linear-gradient(to 120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%); 
+}
+
+.card {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  width: 28rem;
+  height: 37rem;
+  top: 20px;
+}
+
+.login-heading {
+font-weight: 400;
+font-size: 38px;
+text-align: center;
+font-family: 'Philosopher';
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.form-label-group input {
+  border-radius: 2rem;
+}
+
+.form-label-group>input {
+  padding: var(--input-padding-y) var(--input-padding-x);
+  height: 3rem;
+  border-radius: 2rem;
+  width: 19rem;
+}
+
+.btn-royal-garden {
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  font-size: 18px;
+  
+}
+
+p {
+  font-size: 15px;
+}
+
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+
+/*table*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1d3ea;
+}
+
+button {
+  background-color: rgb(236, 148, 178);
+  scroll-padding-inline-start: 5px;
+} 

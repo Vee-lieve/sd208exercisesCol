@@ -1,0 +1,90 @@
+body{
+    background-image: url("bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img-gradient{
+    background-image:  linear-gradient(to bottom, rgba(166,193,238,0.4), rgba(251,194,235,0.4));
+    height: 680px; 
+}
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.9rem;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    width: 27rem;
+    height: 37rem;
+    top: 10px;
+}
+
+.login-heading {
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 35px;
+    }
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  /* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+.form-label-group .input-group input {
+    height: 48px;
+    margin: 0 12px 0 12px;
+}
+
+.error{
+    font-family: 'BenchNine';
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.registerbtn{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 17px;
+    width: 15rem;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
