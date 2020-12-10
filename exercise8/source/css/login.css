@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://www.jasminedirectory.com/blog/wp-content/uploads/2019/07/photograph.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 100vh;
+   }
+
+   h1.test {
+    font-family: 'Merienda', cursive;  
+   }
+
+   form h4 {
+    font-family: 'Cinzel', serif;
+   }
+   
+   .rainy-ashville-gradient {
+       background: -moz-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%);
+       background: -webkit-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%);
+       background: -webkit-gradient(linear, 120deg, from(rgba(166,193,238,0.4)), to(rgba(251,194,235,0.4)));
+       background: -o-linear-gradient(120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%); 
+       background: linear-gradient(to 120deg, rgba(166,193,238,0.4), rgba(251,194,235,0.4) 100%);   
+       height: 100vh;
+   }
+   
+   .card {
+       width: 22rem;
+       height: 29.7rem;
+       top: 20px;
+       opacity: 90%;
+   }
+   
+     .login-heading {
+     font-weight: 400;
+     font-size: 38px;
+     text-align: center;
+     font-family: 'Philosopher';
+     }
+     
+     .form-group input {
+         width: 16rem;
+         padding: 8px 0 8px 14px;
+         border-radius: 5px;
+         
+     }
+   
+     .btn {
+       background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+       width: 7rem;
+       border-radius: 1.5rem;
+     }

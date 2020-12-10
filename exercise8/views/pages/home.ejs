@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <div class="mask rainy-ashville-gradient align-items-center">
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center">
+                <div class="card mw-100 mt-5" style="height: 31rem; width: 25rem;">
+                    <div class="card-body mx-auto">
+                        <div class="col-md-12">
+                            <form action="">
+                                <h1 class="test mb-3">User Profile</h1>
+                                <h4>First name:</h4>
+                                <p><span><%= data.firstName %></span></p>
+                                <hr>
+                                <h4>Last name:</h4>
+                                <p><span><%= data.lastName %></span></p>
+                                <hr>
+                                  <h4>Email:</h4>
+                                <p><span><%= data.email %></span></p>
+                                <hr>
+                                <h4>Address:</h4>
+                                <p><span><%= data.address %></span></p>
+                                <div id="logout"><a href="/login"><button class="btn mt-1">Logout</button></a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
